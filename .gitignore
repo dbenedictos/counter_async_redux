@@ -1,22 +1,3 @@
-App
-.filecache
-app.dill
-debug_ios_bundle_flutter_assets.stamp
-debug_universal_framework.stamp
-flutter_assets.d
-gen_localizations.stamp
-iphone_framework
-kernel_snapshot.d
-kernel_snapshot.stamp
-outputs.json
-simulator_framework
-.dart_tool
-.idea
-pokedex.iml
-build/ios
-build
-
-
 
 # Miscellaneous
 *.class
@@ -28,7 +9,6 @@ build
 .buildlog/
 .history
 .svn/
-.fvm/
 
 # IntelliJ related
 *.iml
@@ -42,6 +22,9 @@ build
 # is commented out by default.
 .vscode/
 
+# The .fvm folder contains version management of flutter.
+.fvm/
+
 # Flutter/Dart/Pub related
 *.g.dart
 *.freezed.dart
@@ -54,6 +37,7 @@ build
 .pub-cache/
 .pub/
 /build/
+ios/build/
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -91,7 +75,6 @@ build
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 **/ios/Flutter/flutter_export_environment.sh
-**/ios/Podfile.lock
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
